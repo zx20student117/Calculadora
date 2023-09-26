@@ -9,6 +9,13 @@ num_2 = int(input("Ingrese el segundo numero: "))
 def sumar(n1, n2):
     return n1 + n2
 
-resultado = sumar(num_1, num_2)
+def restar(n1, n2):
+    return n1 - n2
 
-print("El resultado es: ", resultado)
+resultado_1 = sumar(num_1, num_2)
+
+resultado_2 = restar(num_1, num_2)
+
+print("El resultado es: ", resultado_1)
+
+print("El resultado es: ", resultado_2)
