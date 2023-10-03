@@ -6,7 +6,7 @@ num_1 = int(input("Ingrese el primer numero: "))
 
 num_2 = int(input("Ingrese el segundo numero: "))
 
-def sumar(n1, n2):
+def sumar(n1: int, n2: int) -> int:
     return n1 + n2
 
 def restar(n1, n2):
